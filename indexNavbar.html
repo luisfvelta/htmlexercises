@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+       crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">   
+    
+    <title>Navbars TEX</title>
+</head>
+<body>
+    <!-- Although it’s not required, you can wrap a navbar in a 
+    .container to center it on a page–though note that an 
+    inner container is still required. Or you can add a 
+    container inside the .navbar to only center the contents
+    of a fixed or static top navbar. -->
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Use any of the responsive containers to change how wide 
+    the content in your navbar is presented. -->
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Default</a>
+        </div>
+    </nav>
+
+<!-- Placement 
+Use our position utilities to place navbars in non-static
+positions. Choose from fixed to the top, fixed to the bottom,
+stickied to the top (scrolls with the page until it reaches
+the top, then stays there), or stickied to the bottom
+(scrolls with the page until it reaches the bottom, then
+stays there).
+
+Fixed navbars use position: fixed, 
+meaning they’re pulled from the normal flow of the DOM
+and may require custom CSS (e.g., padding-top on the <body>)
+to prevent overlap with other elements.
+
+Default 
+-->
+
+<nav class="navbar  nav bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Default position</a>
+    </div>
+  </nav>
+
+<!-- Fixed top -->
+
+<nav class="navbar fixed-top bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fixed top</a>
+    </div>
+</nav>
+
+<!-- Fixed bottom fixed-bottom-->
+
+<nav class="navbar  bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fixed bottom</a>
+    </div>
+</nav>
+
+<!-- Sticked top -->
+<!-- <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"> -->
+<nav class="navbar sticky-top bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sticky top</a>
+    </div>
+</nav>
+
+<!-- Sticked bottom bg-body-tertiary -->
+
+<nav class="navbar sticky-bottom " style="background-color: #e3f2fd;"">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sticky bottom</a>
+    </div>
+</nav>  
+
+<!--
+     Navbars require a wrapping .navbar with .navbar-expand
+{-sm|-md|-lg|-xl|-xxl} for responsive collapsing and color
+scheme classes. 
+
+    Navbars and their contents are fluid by default. Change the
+container to limit their horizontal width in different ways.
+
+    Use our spacing and flex utility classes for controlling
+spacing and alignment within navbars.
+
+    Spacing utilities that apply to all breakpoints, from xs to xxl,
+have no breakpoint abbreviation in them, because those classes
+are applied from min-width: 0 and up, and thus are not bound by a
+media query. The remaining breakpoints, however, do include a
+breakpoint abbreviation.
+
+    Classes are named using the format {property}{sides}-{size}
+for xs and {property}{sides}-{breakpoint}-{size}
+for sm, md, lg, xl, and xxl.
+
+    Property is one of:
+
+        m - for classes that set margin
+        p - for classes that set padding
+
+    Sides is one of:
+
+        t - set margin-top or padding-top
+        b - set margin-bottom or padding-bottom
+        s - (start) set margin-left or padding-left in LTR,
+                        margin-right or padding-right in RTL
+        e - (end) set margin-right or padding-right in LTR,
+                        margin-left or padding-left in RTL
+        x - set both *-left and *-right
+        y - set both *-top and *-bottom
+        blank - set a margin/padding on all 4 sides of the element
+
+    Size is one of:
+
+        0 - eliminate the margin or padding by setting it to 0
+        1 - set the margin or padding to $spacer * .25
+        2 - set the margin or padding to $spacer * .5
+        3 - set the margin or padding to $spacer
+        4 - set the margin or padding to $spacer * 1.5
+        5 - set the margin or padding to $spacer * 3
+        auto - set the margin to auto
+
+    Horizontal centering 
+    Additionally, Bootstrap also includes an .mx-auto class
+for horizontally centering fixed-width block level content—that
+is, content that has display: block and a width set—by setting
+the horizontal margins to auto.
+
+<div class="mx-auto p-2" style="width: 200px;">
+  Centered element
+</div>
+
+Gap 
+    When using display: grid or display: flex, you can make use of gap
+utilities on the parent element. This can save on having to add margin
+utilities to individual children of a grid or flex container.
+Gap utilities are responsive by default, and are generated via our
+utilities API, based on the $spacers Sass map.
+
+Color
+
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    
+    </nav>
+
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+    
+    </nav>
+
+    <nav class="navbar" style="background-color: #e3f2fd;">
+    
+    </nav>
+
+    Navbars are responsive by default, but you can easily modify them to change that.
+Responsive behavior depends on our Collapse JavaScript plugin.
+
+    Ensure accessibility by using a <nav> element or, if using a more generic
+element such as a <div>, add a role="navigation" to every navbar to explicitly
+identify it as a landmark region for users of assistive technologies.
+
+    Indicate the current item by using aria-current="page" for the current page
+or aria-current="true" for the current item in a set.
+
+Supported content 
+
+    Navbars come with built-in support for a handful of sub-components.
+Choose from the following as needed:
+
+    .navbar-brand:  company, product, or project name.
+    .navbar-nav: for a full-height and lightweight navigation (including dropdowns)         .
+    .navbar-toggler: for use with our collapse plugin and other navigation
+                     toggling behaviors.    
+    Flex and spacing utilities for any form controls and actions.
+    .navbar-text: adds vertically centered strings of text.
+    .collapse.navbar-collapse for grouping and hiding navbar contents by a parent breakpoint.
+    Add an optional .navbar-scroll to set a max-height and scroll expanded
+     navbar content.
+    Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint.
+
+        -->
+
+    <div class="mx-auto p-2" style="width: 200px;">
+        Centered element
+    </div>
+
+    <div class="d-flex gap-5">
+        <div class="p-2  border">item 1</div>
+        <div class="p-2  border">item 2</div>
+        <div class="p-2  border">item 3</div>
+        <div class="p-2  border">item 4</div>SSS
+    </div>
+    <div class="container">
+        <div class="grid">
+            <div class="row row-gap-1                  ">
+                <div class="p-1  col">Grid item 1</div>
+                <div class="p-1  col">Grid item 2</div>
+                <div class="p-1  col">Grid item 3</div>
+                <div class="p-1  col6">Grid item 4</div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <!-- Navbar content -->
+      </nav>
+      
+      <nav class="navbar bg-primary" data-bs-theme="dark">
+        <!-- Navbar content -->
+      </nav>
+      
+      <nav class="navbar" style="background-color: #e3f2fd;">
+        <!-- Navbar content -->
+      </nav>
+
+      <!-- Standar navbar menu 
+    
+    This example uses background (bg-body-tertiary) 
+    and spacing (me-auto, mb-2, mb-lg-0, me-2) utility classes.-->
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<!-- Brand 
+
+    The .navbar-brand can be applied to most elements, but an anchor works best,
+as some elements might require utility classes or custom styles.
+
+    Text 
+
+Add your text within an element with the .navbar-brand class.
+
+As a link 
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+        </div>
+    </nav>
+  
+ As a heading
+
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Navbar</span>
+    </div>
+  </nav>
+
+  Image
+
+    You can replace the text within the .navbar-brand with an <img>.
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+                     alt="Bootstrap" width="30" height="24">
+            </a>
+        </div>
+    </nav>
+
+  Image and text
+
+    You can also make use of some additional utilities to add an image and text
+at the same time. Note the addition of .d-inline-block and .align-text-top on
+the <img>.
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+                    alt="Logo" width="30" height="24" 
+                    class="d-inline-block align-text-top">
+                Bootstrap
+            </a>
+        </div>
+    </nav>
+    -->
+
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+                    alt="Logo" width="30" height="24" 
+                    class="d-inline-block align-text-top">
+                Bootstrap
+            </a>
+        </div>
+    </nav>
+
+    <!-- Nav
+
+    Navbar navigation links build on our .nav options with their own modifier
+ class and require the use of toggler classes for proper responsive styling.
+
+    Navigation in navbars will also grow to occupy as much horizontal space as possible
+ to keep your navbar contents securely aligned.
+    Add the .active class on .nav-link to indicate the current page.
+
+    Please note that you should also add the aria-current attribute on the active
+ .nav-link. -->
+
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- And because we use classes for our navs,
+     you can avoid the list-based approach entirely if you like. -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNavAltMarkup" 
+                    aria-controls="navbarNavAltMarkup" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dropdowns 
+
+        You can also use dropdowns in your navbar. Dropdown menus require a wrapping
+         element for positioning, so be sure to use separate
+         and nested elements for .nav-item and .nav-link as shown below. -->
+
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+<!-- Forms 
+Place various form controls and components within a navbar: -->
+
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Immediate child elements of .navbar use flex layout and will default
+     to justify-content: space-between.
+
+     Use additional flex utilities as needed to adjust this behavior -->
+
+     <nav class="navbar bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand">Navbar</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- Input groups work, too. If your navbar is an entire form, 
+        or mostly a form, you can use the <form> element as the container
+         and save some HTML. -->
+    
+        <nav class="navbar bg-success">
+            <form class="container-fluid">
+              <div class="input-group">ABC
+                <span class="input-group-text" id="basic-addon1">@aaaa</span>
+                <input type="text" class="form-control"
+                 placeholder="Username"
+                 aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </form>
+        </nav>
+
+        <nav class="navbar bg-body-tertiary">
+            <form class="container-fluid justify-content-start">
+              <button class="btn btn-outline-success me-2" type="button">Main button</button>
+              <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+            </form>
+          </nav>
+
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <span class="navbar-text">
+                Navbar text with an inline element
+              </span>
+            </div>
+          </nav>
+
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar w/ text</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                  Navbar text with an inline element
+                </span>
+              </div>
+            </div>
+          </nav>
+
+<!-- Responsive behaviors 
+
+    Navbars can use .navbar-toggler, .navbar-collapse, and .navbar-expand
+{-sm|-md|-lg|-xl|-xxl} classes to determine when their content collapses
+behind a button. In combination with other utilities, you can easily choose
+when to show or hide particular elements.
+
+    For navbars that never collapse, add the .navbar-expand class on the navbar.
+For navbars that always collapse, don’t add any .navbar-expand class. 
+
+    Toggler 
+
+    Navbar togglers are left-aligned by default, but should they follow
+    a sibling element like a .navbar-brand, they’ll automatically
+    be aligned to the far right. Reversing your markup will reverse
+    the placement of the toggler. Below are examples of different toggle styles.
+
+    With no .navbar-brand shown at the smallest breakpoint:
+
+-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">Hidden brand</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- With a brand name shown on the left and toggler on the right: -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BleTor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>  
+  
+  <!-- With a toggler on the left and brand name on the right:  -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">BriTol</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- External content 
+
+        Sometimes you want to use the collapse plugin to trigger a container
+    element for content that structurally sits outside of the .navbar. 
+    Because our plugin works on the id and data-bs-target matching,
+    that’s easily done! -->
+
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-dark p-4">
+          <h5 class="text-body-emphasis h4">Collapsed content</h5>
+          <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button"
+             data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
+             aria-controls="navbarToggleExternalContent"
+             aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+</html>
