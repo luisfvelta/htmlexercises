@@ -1,9 +1,8 @@
 # htmlexercises
-Exercises on html and css
+Folder assets/imgs contains the images in format for the web
+Folder assets/originals contains the images in other formats as supplied
 
-Testing the relationships of the github repository with a local repo.
+Folder assets/styles contains the different .css files
+Folder stuff/html will contains different html files to run tests of concepts
 
-Configuring the user name in the local git repository
-Cambio en el PC - Luego en GITHUB
-
-Cambio desde VSC
+The .html files will contain the app html files
