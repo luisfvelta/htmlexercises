@@ -1,3 +1,9 @@
+/* Body */
+
+body {
+    height:2000px;
+}
+
 /* Barra de navegación */
 
 .navbar {
@@ -9,8 +15,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
-
 
 /* Generales*/
 
@@ -55,8 +59,6 @@ h1{
     font-size: 1.1rem;
     margin: 20px    ;
 }
-
-
 
 .texto-negro{
     color: black;
@@ -228,6 +230,14 @@ h1{
 
 .card-header{
     font-weight: bold;
+}
+
+.card-img-top {
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+}
+.no-wrap{
+    white-space: nowrap;
 }
 
 /* Testimonios */
