@@ -100,6 +100,7 @@ h1{
 
 /* Contacto */
 
+
 .contacto .container{
     max-width: 1100px;
     min-height: 200px;
@@ -205,6 +206,41 @@ footer {
     padding: 20px;
 }
 
+/* Formulario de contacto */
+
+.form-floating{
+    position: relative;    
+}
+
+.icon{
+    position: absolute;
+    top: calc(50%);
+    left: 1.25rem;
+}
+
+.form-floating label, .form-floating .form-control {
+    left: .5rem;
+    padding-left: 2.5rem;
+}
+
+.icon-textarea{
+    position:absolute;
+    top: 1.8rem;
+    left: 1.25rem;
+
+}
+
+.formulario-de-contacto{
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+    padding: 40px 30px;
+}
+
+.map-area iframe{
+    width: 100%;
+    height: 400px%;
+    border: none;
+}
 
 /* Adaptable (responsive) */
 
@@ -237,6 +273,17 @@ footer {
     }
     .testimonio-texto{
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .formulario-de-contacto {
+        margin-bottom: 30px;
+    }
+
+    .map-area{
+        width: 100%;
+        height: 400px;
     }
 }
 
