@@ -1,7 +1,9 @@
-# htmlexercises
+### htmlexercises
 
-Current files: 19/08/2023
+##Current files: 09/08/2024
 
-html   ==== >>>>   is index.html
+pagina principal html   ==== >>>>   is index.html
+pagina de sellos de bolsillo === >>>> is bolsillo.html
+
 css    ==== >>>>    is assets/styles/stylestx.css
 images ==== >>>> folder assets/imgs contains the images in format for the web
