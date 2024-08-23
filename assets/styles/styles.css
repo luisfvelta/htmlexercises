@@ -72,8 +72,6 @@ h1{
     color: white;
 }
 
-
-
 .articulos .card {
     width: 60%;
     max-width: 400px;
@@ -95,8 +93,6 @@ h1{
 .no-wrap{
     white-space: nowrap;
 }
-
-
 
 /* Contacto */
 
@@ -159,8 +155,8 @@ footer {
 }
 
 .footer-logo {
-    height: 80px;
-    width: 80px;
+    
+    width: 200px;
     margin: 10px;
 }
 
@@ -204,7 +200,6 @@ footer {
     color: #aeaeae;
     padding: 20px;
 }
-
 
 /* Adaptable (responsive) */
 
