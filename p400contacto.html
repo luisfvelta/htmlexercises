@@ -117,19 +117,21 @@
       <!-- Name input -->
       <div class="mb-3">
         <label class="form-label" for="name">Nombre y apellidos</label>
-        <input class="form-control" id="name" type="text" placeholder="Nombre y apellidos" />
+        <input class="form-control" id="name" type="text" placeholder="Nombre y apellidos" data-sb-validations="required" data-sb-feedback="name:required" />
+        <div class="invalid-feedback" data-sb-feedback="name:required">Nombre requerido.</div>
       </div>
   
       <!-- Email address input -->
       <div class="mb-3">
         <label class="form-label" for="emailAddress">Dirección de email</label>
-        <input class="form-control" id="emailAddress" type="email" placeholder="Dirección de email" />
+        <input class="form-control" id="emailAddress" type="email" placeholder="Dirección de email"   data-sb-validations="required, email"   />
+        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email requerido.</div>
       </div>
   
       <!-- Message input -->
       <div class="mb-3">
         <label class="form-label" for="message">Describa su requerimiento</label>
-        <textarea class="form-control" id="message" type="text" placeholder="Describa su requerimiento" style="height: 10rem;"></textarea>
+        <textarea class="form-control" id="message" type="text" placeholder="Describa su requerimiento" style="height: 10rem;" data-sb-validations="required"></textarea>
       </div>
   
       <!-- Form submit button -->
