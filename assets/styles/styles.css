@@ -9,8 +9,8 @@ body {
 /* Barra de navegación */
 
 .navbar {
-    padding: 0.5rem;
-    background-color: var(bs-blue);
+    padding: 0.1rem;
+    background-color: var(--bs-blue);
 }
 
 .navbar-collapse {
