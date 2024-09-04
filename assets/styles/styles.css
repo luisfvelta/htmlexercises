@@ -8,9 +8,11 @@ body {
 
 /* Barra de navegación */
 
+/* Color lightgray */
+
 .navbar {
     padding: 0.1rem;
-    background-color: var(--bs-blue);
+    background-color: lightgray;
 }
 
 .navbar-collapse {
