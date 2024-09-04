@@ -86,9 +86,15 @@ h1{
     font-weight: bold;
 }
 
-.card-img-top {
-    border: solid 4px blueviolet;
+.card-img-bottom {
+    border: solid 4px rgb(246, 22, 89);
     border-radius: 20px;
+    width: 200px;
+}    
+.card-img-top {
+    border: solid 4px rgb(7, 42, 238);
+    border-radius: 20px;
+    width: 200px;
 }
 .no-wrap{
     white-space: nowrap;
