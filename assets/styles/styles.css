@@ -8,19 +8,16 @@ body {
 }
 
 nav{
-    background-color: maroon;
+    background-color:black;
     color: whitesmoke;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 /* Barra de navegación */
 
 .navbar {
-    padding: 0.01rem;
-    background-color: maroon;
-    color: whitesmoke;
-    font-size: 1.5rem; 
-}
+    padding: 0.01rem;  
+ }
 
 .navbar-collapse {
     align-items: center;
