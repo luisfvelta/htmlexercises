@@ -1,0 +1,92 @@
+<p class="componentheading contentheading align-center" style="text-align: center;"><strong><span style="font-family: 'trebuchet ms', geneva; color: #3366ff; font-size: 24pt;">DESPACHO MOTORIZADO</span></strong></p>
+<table style="height: 102px; border-color: #000000; width: 800px; margin-left: auto; margin-right: auto;" border="4">
+<tbody>
+<tr>
+<td style="width: 215.425px;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;"><img style="display: block; margin-left: auto; margin-right: auto;" src="images/webv3/PNG-moto.png" alt="" width="120" height="120" /></span></td>
+<td style="width: 215.425px;">
+<p> </p>
+<ul style="list-style-type: disc;">
+<li><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">El despacho dentro de Santiago tiene un valor de <strong>$ 4.500</strong></span></li>
+<li><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">El tiempo de entrega es día hábil siguiente.</span></li>
+<li><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">Es importante que nos pueda indicar horario de atención y teléfono de contacto para el transportista.</span></li>
+<li><span style="font-size: 8pt; text-decoration: underline; font-family: 'trebuchet ms', geneva;">Despacho <strong>GRATIS</strong> dentro de Santiago por  la compra de timbres personalizados cuyo valor total sea mayor de <strong>$ 80.000</strong> </span></li>
+</ul>
+</td>
+<td style="width: 241.025px;">
+<p> </p>
+<p> </p>
+<ul>
+<li><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">Podemos entregar tu timbre a las siguientes comunas: Quilicura, Huechuraba, Conchalí, Recoleta, Vitacura, Lo Barnechea, Las Condes, Santiago Centro, La Reina, Peñalolen, Independencia, Ñuñoa, Renca, Quinta Normal, Cerro Navia, Lo Prado, Pudahuel, Estación Central, Cerrillo, Maipu, Lo Espejo, San Miguel, Pedro Aguirre Cerda, El Bosque, San Bernardo, San Joaquín, San Ramon, La Granja, La Pintana, Macul, La Florida y Puente Alto.</span></li>
+</ul>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td style="width: 215.425px;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;"><img style="display: block; margin-left: auto; margin-right: auto;" src="images/webv3/PNG-RAPPI-LOGO.png" alt="" width="120" height="120" /></span></td>
+<td style="width: 215.425px;">
+<ul>
+<li style="text-align: justify;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">Si requieres retirar tu timbre lo antes posible y se te complica pasar a nuestra oficina puede coordinar el retiro mediante <strong>RappiFavor</strong>. </span></li>
+</ul>
+<ul>
+<li style="text-align: justify;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">Nosotros estamos ubicados en Providencia y el valor del despacho dependerá de la distancia en donde este ubicados.  </span></li>
+</ul>
+</td>
+<td style="width: 241.025px;">
+<p> </p>
+<p><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;"><img style="display: block; margin-left: auto; margin-right: auto;" src="images/webv3/RappiFavor-Direccion.jpeg" alt="" width="241" height="147" /></span></p>
+<ul>
+<li style="text-align: justify;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">En punto de recogida solo debes escribir <strong>TIMBREXPRES</strong> y aparece la dirección exacta para el repartidor. Lo único importante es que le puedas indicar el número de seguimiento. De esta manera podemos hacer entrega del pedido.</span></li>
+</ul>
+<p style="text-align: center;"> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"> </p>
+<p> </p>
+<p style="text-align: center;"><strong><span style="font-family: 'trebuchet ms', geneva; color: #3366ff; font-size: 24pt;">DESPACHO REGIONES</span></strong></p>
+<table style="height: 102px; border-color: #000000; width: 800px; margin-left: auto; margin-right: auto;" border="4">
+<tbody>
+<tr>
+<td style="width: 224.025px;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;"><img style="display: block; margin-left: auto; margin-right: auto;" src="images/webv3/chilexpress-logo.png" alt="" width="120" height="120" /></span></td>
+<td style="width: 224.025px;">
+<p> </p>
+<ul>
+<li style="text-align: left;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">La encomienda se entrega a la empresa de transporte el día hábil siguiente a la recepción del pago.</span></li>
+</ul>
+<ul style="text-align: left;">
+<li><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">Para despacho a Región es importante indicar la <strong>dirección completa, nombre y apellido, correo electrónico</strong> <strong>y teléfono de contacto.</strong></span></li>
+</ul>
+<ul>
+<li style="text-align: left;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">Ofrecemos un <strong>descuento del 10%</strong> al valor del despacho por  la compra de timbres personalizados cuyo valor total sea mayor de <strong>$ 100.000</strong> </span></li>
+</ul>
+</td>
+<td style="width: 224.15px;">
+<ul style="list-style-type: disc;">
+<li><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">El valor del despacho se calcular según el tamaño, peso y valor de la encomienda. Puede ver el valor aproximado directamente en la página web oficial de <strong>Chilexpress</strong>.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: 8pt;">Permite pagar el valor del despacho solo en sucursal.</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 224.025px;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;"><img style="display: block; margin-left: auto; margin-right: auto;" src="images/webv3/starken-logo-png.png" alt="" width="125" height="125" /></span></td>
+<td style="width: 224.025px;"><span style="font-family: 'trebuchet ms', geneva;"> </span>
+<ul style="text-align: justify;">
+<li style="text-align: left;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">La encomienda se entrega a la empresa de transporte el día hábil siguiente a la recepción del pago.</span></li>
+</ul>
+<ul style="text-align: left;">
+<li><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">Para despacho a Región es importante indicar la <strong>dirección completa, nombre y apellido de la persona encargada para la recepción </strong><strong>y teléfono de contacto.</strong></span></li>
+</ul>
+<ul>
+<li style="text-align: left;"><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">Ofrecemos un <strong>descuento del 10%</strong> al valor del despacho por  la compra de timbres personalizados cuyo valor total sea mayor de <strong>$ 100.000</strong> </span></li>
+</ul>
+</td>
+<td style="width: 224.15px;">
+<ul style="list-style-type: disc;">
+<li><span style="font-size: 8pt; font-family: 'trebuchet ms', geneva;">El valor del despacho se calcular según el tamaño, peso y valor de la encomienda. Puede cotizar y ver el valor aproximado directamente en la página web oficial de <strong>Starken</strong>.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: 8pt;">Permite pagar el valor del despacho en sucursal y en domicilio.</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
