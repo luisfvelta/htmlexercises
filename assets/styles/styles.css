@@ -17,7 +17,9 @@ nav{
 
 .navbar {
     padding: 0.01rem;
-    background-color: black;    
+    background-color: maroon;
+    color: whitesmoke;
+    font-size: 1.5rem; 
 }
 
 .navbar-collapse {
