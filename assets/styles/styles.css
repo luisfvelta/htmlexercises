@@ -27,6 +27,11 @@ nav{
     justify-content: space-between;
 }
 
+.nav-link{
+    color: whitesmoke;
+    font-size: 2.0rem;
+}
+
 /* Generales*/
 
 section {
