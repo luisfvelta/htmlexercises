@@ -7,6 +7,12 @@ body {
     height:2000px;
 }
 
+nav{
+    background-color: maroon;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
 /* Barra de navegación */
 
 .navbar {
