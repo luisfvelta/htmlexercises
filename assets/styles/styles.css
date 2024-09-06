@@ -2,7 +2,6 @@
 
 /* Body */
 
-
 body {
     height:2000px;
 }
@@ -16,7 +15,7 @@ nav{
 /* Barra de navegación */
 
 .navbar {
-    padding: 0.01rem;  
+    padding: 0.05rem;  
  }
 
 .navbar-collapse {
@@ -26,7 +25,10 @@ nav{
 
 .nav-link{
     color: whitesmoke;
-    font-size: 2.0rem;
+    font-size: 1.8rem;    
+}
+.nav-link :hover{
+    color:aliceblue
 }
 
 /* Generales*/
