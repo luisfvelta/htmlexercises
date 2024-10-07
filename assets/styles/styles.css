@@ -111,9 +111,9 @@ h1{
     width: 200px;
 }    
 .card-img-top {
-    border: solid 4px rgb(219, 7, 238);
+    border: solid 4px rgb(238, 88, 7);
     border-radius: 20px;
-    width: 100%;
+    width: 80%;
     object-fit: cover;
     
 }
