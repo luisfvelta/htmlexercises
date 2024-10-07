@@ -94,7 +94,7 @@ h1{
 .card {
     /*width: 60%;
     max-width: 400px;*/
-    margin: 20px;
+    margin: auto;
 }
 
 .card .card-title{
