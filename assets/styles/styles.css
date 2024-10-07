@@ -101,13 +101,13 @@ h1{
     justify-content: center;
 }
 
-.card-header{
+.card .card-header{
     font-weight: bold;
 }
 
 .card-img-bottom {
     border: solid 4px rgb(246, 22, 89);
-    border-radius: 20px;
+    border-radius: 10px;
     width: 200px;
 }    
 .card-img-top {
