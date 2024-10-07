@@ -111,9 +111,9 @@ h1{
     width: 200px;
 }    
 .card-img-top {
-    border: solid 4px #07ee31;
-    border-radius: 20px;
-    width: 80%;
+    border: solid 3px #2b16eb;
+    border-radius: 10px;
+    width: 100%;
     object-fit: contain;    
 }
 /* Border contain */
