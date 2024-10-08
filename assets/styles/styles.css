@@ -95,6 +95,7 @@ h1{
     /*width: 60%;
     max-width: 400px;*/
     margin: auto;
+    border-radius: 10px;
 }
 
 .card .card-title{
@@ -111,7 +112,7 @@ h1{
     width: 200px;
 }    
 .card-img-top {
-    border: solid 3px #2b16eb;
+    border: solid 3px hsl(130, 84%, 50%);
     border-radius: 10px;
     width: 100%;
     object-fit: contain; 
