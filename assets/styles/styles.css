@@ -106,11 +106,11 @@ h1{
     font-weight: bold;
 }
 
-.card-img-bottom {
-    border: solid 4px rgb(246, 22, 89);
+/*.card-img-bottom {
+    border: solid 3px rgb(246, 22, 89);
     border-radius: 10px;
     width: 200px;
-}    
+}  */  
 .card-img-top {
     border: solid 3px hsl(130, 84%, 50%);
     border-radius: 10px;
